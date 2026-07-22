@@ -1,0 +1,6 @@
+/target
+*.exe
+*.pdb
+.env
+settings.json
+llm_profiles.json
