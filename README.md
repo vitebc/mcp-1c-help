@@ -1,5 +1,7 @@
 # mcp-1c-help
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Standalone MCP сервер для поиска по официальной справке платформы 1С:Предприятие 8.3.
 
 Работает через HTTP/SSE транспорт — поддерживается любыми MCP-клиентами (Claude Desktop, Cursor IDE, Copilot, и др.).

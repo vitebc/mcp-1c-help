@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Standalone MCP server for 1C:Enterprise 8.3 platform documentation search"
 authors = ["Mini AI 1C"]
+license = "MIT"
 
 [[bin]]
 name = "mcp-1c-help"
