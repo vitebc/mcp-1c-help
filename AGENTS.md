@@ -77,7 +77,7 @@ HTTP/SSE (Model Context Protocol):
 
 ## Особенности
 
-- Индекс в `%APPDATA%/com.mini-ai-1c/help/help.db` (Windows) или `~/.config/com.mini-ai-1c/help/help.db` (Linux)
+- Индекс в `%APPDATA%/mcp-1c-help/help.db` (Windows) или `~/.config/mcp-1c-help/help.db` (Linux)
 - FTS5 fallback на LIKE при ошибке
 - Индексация в фоновом потоке при старте
 - Порядок поиска платформы: ONEC_HELP_PATH → стандартные пути Linux/Windows

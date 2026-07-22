@@ -101,6 +101,6 @@ MCP_HELP_PORT=3010 ./target/release/mcp-1c-help
 
 ## Формат данных
 
-- Индекс хранится в `~/.config/com.mini-ai-1c/help/help.db` (Linux) или `%APPDATA%/com.mini-ai-1c/help/help.db` (Windows)
+- Индекс хранится в `~/.config/mcp-1c-help/help.db` (Linux) или `%APPDATA%/mcp-1c-help/help.db` (Windows)
 - SQLite FTS5 с токенизатором `unicode61`
 - При смене версии платформы индекс перестраивается автоматически

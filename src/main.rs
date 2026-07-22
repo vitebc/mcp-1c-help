@@ -312,7 +312,7 @@ fn get_db_path() -> PathBuf {
     let base = std::env::var("APPDATA")
         .or_else(|_| std::env::var("HOME"))
         .unwrap_or_else(|_| "/tmp".to_string());
-    let dir = PathBuf::from(&base).join("com.mini-ai-1c").join("help");
+    let dir = PathBuf::from(&base).join("mcp-1c-help");
     std::fs::create_dir_all(&dir).ok();
     dir.join("help.db")
 }
